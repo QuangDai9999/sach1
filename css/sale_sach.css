@@ -1,0 +1,105 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 80px 430px 100px;
+    grip-gap: 10px;
+}
+
+.head img{
+     width: 230px;
+     height: 40px;
+}
+
+.head{
+    grid-column: 1 / -1;
+    background-color: white;
+}
+.head input{
+    width: 500px;
+   
+    float: right;
+    margin-top: 10px;
+    margin-right: 36%;
+    padding: 3px;
+}
+.content{
+    background-color:white;
+    grid-column: 2 / 3;
+}
+
+
+
+.left{
+    background-color: white;
+    padding: 5px;
+    
+    
+}
+.pic1{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+
+
+}
+.pic2{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+}
+.pic3{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+}
+
+.pic1:hover{
+    cursor: pointer;
+    transform: scale(5,5);
+    position: absolute;
+    left: 30%;
+    top:46%;  
+}
+.pic2:hover{
+    cursor: pointer;
+    transform: scale(5,5);
+    position: absolute;
+    left: 30%;
+    top:46%;  
+}
+.pic3:hover{
+    cursor: pointer;
+    transform: scale(5,5);
+    position: absolute;
+    left: 30%;
+    top:46%;  
+}
+
+
+.right{
+    background-color: white;
+    padding: 5px;
+}
+.right img{
+    width: 60px;
+    height: 20px;
+}
+
+.footer{
+    grid-column: 2 / 3;
+    padding-left: 80px;
+}
+
+.footer input{
+    color: red;
+    
+}
+
+.footer input:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+    
